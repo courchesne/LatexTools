@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2016" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="standard" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L29" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L1" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LatexTools:=module() </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+option package,`Copyright (c) 2016 Martin Courchesne`:
+
+export SetModelsDir,GetModelsDir,SetVersionsDir,GetVersionsDir,LatexString, ParseMultipleStatements, UnescapeLatex, ResolveMrefs, ProcessLatexFile, ShowAssignments, ShowLatex, CreateVersions, GetVersion, SetVersion, CompileLatex, SetPdfReader, OpenPdf, AssociatedPdfFiles:
+
+local AppendToFilename, FirstUnmatchedClosingBrace, UnmatchedClosingBrace:
+local _modelsdir,_versionsdir,_version, pdf_reader:
+
+SetModelsDir:=proc(mydir::string)
+  _modelsdir:=FileTools:-AbsolutePath(mydir):
+end proc:
+GetModelsDir:=proc()
+  <Font encoding="UTF-8"># les mod\303\250les latex sont plac\303\251s par d\303\251faut dans le m\303\252me r\303\251pertoire que la feuille de travail Maple</Font>
+  if not assigned(_modelsdir) then _modelsdir:=currentdir(): end if:
+  return _modelsdir:
+end proc:
+
+SetVersionsDir:=proc(mydir::string)
+  _versionsdir:=FileTools:-AbsolutePath(mydir):
+end proc:
+GetVersionsDir:=proc()
+  <Font encoding="UTF-8"># les fichiers .tex cr\303\251\303\251s seront plac\303\251s par d\303\251faut dans le sous-r\303\251pertoire versions_latex</Font>
+  if not assigned(_versionsdir) then _versionsdir:=FileTools:-AbsolutePath(&quot;versions_latex&quot;): end if:
+  if not(FileTools[Exists](_versionsdir)) then FileTools[MakeDirectory](_versionsdir): end if:
+  return _versionsdir:
+end proc:
+
+SetVersion:=proc(n::integer)
+  _version:=n:
+end proc:
+GetVersion:=proc()
+  return _version:
+end proc:
+
+SetPdfReader:=proc(reader_path)
+  pdf_reader:=reader_path:
+end proc:
+
+pdf_reader:=&quot;C:/Program Files (x86)/Adobe/Acrobat Reader DC/Reader/AcroRd32.exe&quot;:
+
+OpenPdf:=proc(files::seq(string),{directory::string:=currentdir()})
+  # La commande <Font encoding="UTF-8">system[launch] ne fonctionne pas si le fichier \303\240 ouvrir est sp\303\251cifi\303\251 \303\240 l'aide d'un path contenant des espaces. C'est pourquoi on utilise currentdir() pour invoquer le .exe directement dans le r\303\251pertoire du fichier pdf.</Font>
+  local abs_file, pdf_file, old_dir, abs_dir:
+  old_dir:=currentdir():
+  abs_dir:=FileTools:-AbsolutePath(directory):
+  for pdf_file in [files] do
+    abs_file:=FileTools:-AbsolutePath(pdf_file,abs_dir):
+    currentdir(FileTools:-ParentDirectory(abs_file)):
+    system[launch](cat(pdf_reader, &quot; &quot;,FileTools:-Filename(abs_file))):
+  od:
+  currentdir(old_dir):
+end proc:
+
+AssociatedPdfFiles:=proc(files::seq(string))
+  local file, pdf_files:
+  pdf_files:=NULL:
+  use FileTools in
+    for file in [files] do
+      pdf_files:=pdf_files,cat(ParentDirectory(file),kernelopts(dirsep),Basename(file),&quot;.pdf&quot;):
+    od:
+  end use:
+end proc:
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">use FileTools[Text],StringTools in</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> LatexString:=proc(expr)</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    # Takes as arguments a mathematical expression and returns a string of LaTeX code</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    # If expr is already a string, it remains unchanged</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+    if type(expr,'string') then return expr:
+    else return latex(expr,output=string):
+    end if:
+  end proc:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+UnescapeLatex := proc(mystring::string)
+  RegSubs(<Font encoding="UTF-8">&quot;\134\134\134\134([&amp;%$#_{}~^\134\134])&quot; = &quot;\134\1341&quot;</Font>,mystring);
+end proc:
+
+ParseMultipleStatements := proc(inputstr::string)
+  local _n, result:
+
+  _n:=0:
+  while _n &lt; length(inputstr) do
+    result:=parse(inputstr, 'lastread' = '_n', 'offset' = _n, statement);
+  od:
+
+  return result:
+end proc:
+
+FirstUnmatchedClosingBrace := proc(str)
+  local firstopening, firstclosing:
+
+  firstopening:=FirstFromLeft( &quot;{&quot;, str ):
+  firstclosing:=FirstFromLeft( &quot;}&quot;, str ):
+
+  if ((firstopening=0) or (firstclosing &lt; firstopening)) then return firstclosing:
+  else return firstopening + UnmatchedClosingBrace(substring(str, firstopening+1..length(str)) , 1):
+  end if:
+end proc:
+
+UnmatchedClosingBrace := proc(str,n)
+  # The index n tells us how many closing braces we must discard (level of recursion)
+  local firstopening, firstclosing:
+
+  firstopening:=FirstFromLeft( &quot;{&quot;, str ):
+  firstclosing:=FirstFromLeft( &quot;}&quot;, str ):
+
+  if ((firstopening=0) or (firstclosing &lt; firstopening)) then 
+    if n=0 then return firstclosing:
+    else return firstclosing + UnmatchedClosingBrace(substring(str, firstclosing+1..length(str)) , n-1):
+  end if:
+
+  else return firstopening + UnmatchedClosingBrace(substring(str, firstopening+1..length(str)) , n+1):
+  end if:
+end proc:
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ResolveMrefs:=proc(corps)</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   local corps_split,output,i,chunk,fin_var,str1,str2:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">   corps_split:=[RegSplit(&quot;\134\134\134\134Mref{&quot;,corps)]:</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   output:=corps_split[1]:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   for i from 2 to nops(corps_split) do</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">     chunk:=corps_split[i]:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">     fin_var:=FirstUnmatchedClosingBrace(chunk) - 1:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">     str1:=LatexString(ParseMultipleStatements(UnescapeLatex(substring(chunk, 1 .. fin_var))));</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">     str2:=substring(chunk,fin_var+2..Length(chunk));</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">     output:=cat(output,str1,str2):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   od;
+   return output:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> end proc:
+
+ProcessLatexFile := proc(filename, outputfile::string:=FileTools:-AbsolutePath(AppendToFilename(filename, &quot;_Mrefs&quot;),GetVersionsDir()))
+ local source_file, source_str, entete, corps, target_file:
+   
+ source_file:=Open(FileTools:-AbsolutePath(filename,GetModelsDir())):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> source_str:=ReadFile(source_file):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> Close(source_file):
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> source_str:=<Font encoding="UTF-8">RegSplit(&quot;\134\134\134\134begin{document}|\134\134\134\134end{document}&quot;,source_str):</Font>
+ entete:=source_str[1]:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> corps:=source_str[2]:
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> target_file:=Open(outputfile,create=true,overwrite=true);</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> WriteString(target_file,entete):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8"> WriteString(target_file,&quot;\134\134begin{document}&quot;):</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> WriteString(target_file,ResolveMrefs(corps)):
+<Font encoding="UTF-8"> WriteString(target_file,&quot;\134\134end{document}&quot;):
+</Font> Close(target_file):
+
+end proc:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> AppendToFilename:=proc(filename,addendum)</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   cat(FileTools:-Basename(filename),addendum,&quot;.&quot;,FileTools:-Extension(filename)):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> end proc:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+ CompileLatex := proc(files::seq(string),{pdflatex_options::string:=&quot; -interaction=nonstopmode &quot;,target_directory::string:=currentdir()})
+   # This procedure expects one or more strings, each containing the name of a file to be compiled 
+   local file, abs_file, old_dir, abs_dir, output, command:
+   output := NULL:
+   old_dir := currentdir():
+   abs_dir:=FileTools[AbsolutePath](target_directory):
+   
+   for file in [files] do
+     abs_file:=FileTools:-AbsolutePath(file,abs_dir):
+     currentdir(FileTools:-ParentDirectory(abs_file)):
+     print(currentdir()):
+     command:=cat(&quot;pdflatex &quot;, pdflatex_options, &quot; &quot;, FileTools:-Filename(abs_file)):
+     print(command):
+     
+     output:=output,ssystem(command):
+   od;
+   currentdir(old_dir):
+   return output:
+ end proc:
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ShowAssignments:=proc(serie,vars)</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  local serie_k,i,serie_init,serie_fin:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  if type(serie,integer) then</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    serie_init:=serie: serie_fin:=serie:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  else</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    serie_init:=lhs(serie): serie_fin:=rhs(serie):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  end if:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  for serie_k from serie_init to serie_fin do</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  print(cat(&quot;Serie &quot;,serie_k));    </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  InitializeVersion(serie_k):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  for i from 1 to nops(vars) do</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">      print(cat(vars[i],&quot;=&quot;,eval(vars[i])));</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  od:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  print(&quot;************&quot;);
+  return eval(vars[1]):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  od:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">end proc: </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ShowLatex:=proc(serie,vars)</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  local serie_k,i,serie_init,serie_fin:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  if type(serie,integer) then</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    serie_init:=serie: serie_fin:=serie:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  else</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    serie_init:=lhs(serie): serie_fin:=rhs(serie):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  end if:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  for serie_k from serie_init to serie_fin do</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  print(cat(&quot;Serie &quot;,serie_k));    </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  InitializeVersion(serie_k):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  for i from 1 to nops(vars) do</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">      print(cat(vars[i],&quot;-&gt;&quot;,LatexString(eval(vars[i]))));</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  od:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  print(&quot;************&quot;);</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  od:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">end proc: </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">CreateVersions:=proc(series_range, sources::seq(string))
+<Font encoding="UTF-8"> # Pour cr\303\251er des versions d'une s\303\251rie de documents Latex (comme le questionnaire et le solutionnaire d'un devoir al\303\251atoire)
+ # Cette proc\303\251dure doit remplacer CreateHomework
+</Font>
+<Font encoding="UTF-8"> # Pour cr\303\251er une seule version d'un devoir, on peut passer un entier en param\303\250tre
+ # La proc\303\251dure s'attend \303\240 recevoir un nombre variable de noms de fichiers (format string) apr\303\250s la variable series_range. Par exemple, on peut appeler CreateVersions(101..120,&quot;questions.tex&quot;,&quot;reponses.tex&quot;)
+</Font>
+<Font encoding="UTF-8"> # La valeur retourn\303\251e est un liste des fichiers latex cr\303\251\303\251s</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> local i, source, target, targets, source_file, source_str, tete, corps, pied, target_file, parsed_file, serie:
+ local premier_travail,dernier_travail,versions_range:
+
+<Font encoding="UTF-8"> # targets gardera en m\303\251moire la liste de tous les fichiers .tex cr\303\251\303\251s.
+</Font> targets:=NULL:
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> if type(series_range,'range') then  </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   premier_travail:=lhs(series_range):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   dernier_travail:=rhs(series_range):
+   versions_range:=cat(&quot;_&quot;,premier_travail,&quot;_&quot;,dernier_travail):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> else </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   premier_travail:=series_range:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   dernier_travail:=series_range:
+   versions_range:=cat(&quot;_&quot;,premier_travail):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> end if;
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+
+<Font encoding="UTF-8"># On cr\303\251e les fichiers qui contiendront les versions latex
+</Font>for i from 1 to numelems([sources]) do
+ 
+<Font encoding="UTF-8"># Message d'erreur si 1 seul argument \303\240 la proc\303\251dure?
+</Font>  
+<Font encoding="UTF-8">  # On lit d'abord les fichiers mod\303\250les</Font>
+  source:=FileTools:-AbsolutePath([sources][i],GetModelsDir()):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  source_file:=Open(source):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  source_str:=ReadFile(source_file):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  Close(source_file):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">
+  parsed_file:=[<Font encoding="UTF-8">RegSplit(&quot;\134\134\134\134begin{document}|\134\134\134\134end{document}&quot;,source_str)]:
+</Font>  </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  tete:=parsed_file[1]:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  corps[i]:=parsed_file[2]:
+  if numelems(parsed_file) &gt; 2 then
+    pied[i]:=parsed_file[3]:
+  else pied[i]:=&quot;&quot;:
+  end if:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8"># On se pr\303\251pare les fichiers latex qui vont contenir les versions</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  target:=cat(GetVersionsDir(),kernelopts(dirsep),AppendToFilename(source,versions_range));</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  target_file[i]:=Open(target,create=true,overwrite=true);
+  targets:=targets,target:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">  WriteString(target_file[i],tete):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">  WriteString(target_file[i],&quot;\134\134begin{document}&quot;):
+</Font> 
+od:
+</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8"># C'est parti: on cr\303\251e les versions en appelant la proc\303\251dure &quot;InitializeVersion&quot;</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> for serie from premier_travail to dernier_travail do
+   SetVersion(serie):
+   
+   if assigned(InitializeVersion) then InitializeVersion(serie): end if:
+
+   for i from 1 to numelems([sources]) do
+    </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">     if (serie &lt;&gt; premier_travail) then
+     <Font encoding="UTF-8"># On \303\251crit le code latex qui s\303\251pare deux versions entre elles</Font>
+       
+         if StringTools:-RegMatch(<Font encoding="UTF-8">&quot;\134\134newpage&quot;</Font>,pied[i]) or StringTools:-RegMatch(<Font encoding="UTF-8">&quot;\134\134pagebreak&quot;</Font>,pied[i]) then
+<Font encoding="UTF-8">         # Si le document source sp\303\251cifie un s\303\251parateur de versions qui inclut un saut de page
+</Font>           WriteString(target_file[i],pied[i])
+         else</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">           WriteString(target_file[i]<Font encoding="UTF-8">,cat(&quot;\134n\134n\134\134newpage\134n\134n&quot;,</Font>pied[i])):</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">         end if:
+       
+<Font encoding="UTF-8">     # Si, pour une raison obscure, on ne voulait pas de \134newpage entre 2 versions, il faudrait mettre un %\134newpage dans le pied de page latex (apr\303\250s \134end{document})</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">     end if:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   </Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">     WriteString(target_file[i],ResolveMrefs(corps[i])):
+
+     if (serie = dernier_travail) then</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">       WriteString(target_file[i]<Font encoding="UTF-8">,&quot;\134\134end{document}&quot;):</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">       Close(target_file[i]);
+     end if:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">   od:
+   if assigned(FinalizeVersion) then FinalizeVersion(serie): end if:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> od:
+
+<Font encoding="UTF-8"> # On retourne un tableau de strings contenant le nom des fichiers .tex cr\303\251\303\251s
+</Font> return targets:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">end proc:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">end use:</Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">end module:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L26" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(LatexTools);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L25" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">mylibdir := cat(kernelopts(mapledir), kernelopts(dirsep), &quot;lib&quot;);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L23" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">savelibname:=cat(mylibdir, kernelopts(dirsep), &quot;MC_Packages.mla&quot;);
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L21" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L22" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#LibraryTools:-Create(savelibname);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L27" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#LibraryTools:-Delete(savelibname);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L24" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LibraryTools:-Save('LatexTools', savelibname);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L3" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">currentdir();</Text-field>
+</Input>
+</Group>
+<Group labelreference="L28" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
